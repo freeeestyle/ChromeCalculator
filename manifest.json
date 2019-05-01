@@ -1,0 +1,20 @@
+{
+ "name": "Calclator",
+ "description": "Calclator",
+ "version": "1",
+ "manifest_version": 2,
+ "app": {
+    "background": {
+        "scripts": ["src/background.js"]
+    }
+ },
+ "icons": {
+   "16" : "icon_16.png",
+   "128": "icon_128.png"
+ },
+ "sandbox": {
+   "pages": ["src/calc.html"]
+ },
+ "permissions": [
+ ]
+}
